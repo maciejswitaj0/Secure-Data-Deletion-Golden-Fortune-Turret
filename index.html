@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Management | Golden Fortune Turret</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-wrapper">
+                <img src="icon.png" alt="Golden Fortune Turret Icon" class="game-icon">
+            </div>
+            <h1>Golden Fortune Turret</h1>
+            <p class="subtitle">Secure Data Deletion Portal</p>
+        </header>
+
+        <main>
+            <div class="form-card">
+                <form id="deletionForm">
+                    <div class="input-group">
+                        <label for="nickname">Master Nickname</label>
+                        <input type="text" id="nickname" name="nickname" placeholder="Enter your player name..." required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="reason">Why are you leaving the journey?</label>
+                        <select id="reason" name="reason">
+                            <option value="privacy">Privacy & Security</option>
+                            <option value="reset">Start a new path to Fortune</option>
+                            <option value="support">Technical issues</option>
+                        </select>
+                    </div>
+
+                    <div class="gold-warning">
+                        <p><strong>Attention:</strong> By submitting this request, your Skills (Power, Speed, Dexterity), My Journey progress, and all collected Prizes will be permanently forfeited from our servers.</p>
+                    </div>
+
+                    <button type="submit" class="btn-action">CONFIRM DELETION</button>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-links">
+                <span>Terms of Use</span> | <span>Privacy Policy</span>
+            </div>
+            <p class="copyright">&copy; 2024 Golden Fortune Turret. All assets belong to their respective owners.</p>
+        </footer>
+    </div>
+</body>
+</html>
